@@ -1,0 +1,161 @@
+@media all and (max-width: 768px) {
+	
+	/**** Herder-area ****/
+	.main-menu ul li {
+		padding: 0px 9px;
+	}
+	
+	.main-menu ul .logo img {
+		margin: 0 10px;
+	}
+	
+	
+	/**** 3. Get Started ****/
+	
+	.get-started .hand-mobile {
+		background-position: top left;
+		background-size: 90% auto;
+	}
+	
+	.content {
+		width: 80%;
+		margin: auto;
+		padding-left: 20px;
+	}
+	
+	
+	/**** Design Area ****/
+	
+	.design-text {
+		background-size: 35%;
+	}
+	
+	.design-content {
+		width: 55%;
+	}
+	
+	
+	/**** community-area ****/
+	
+	.column:nth-child(1) {
+		margin-top: 0px;
+	}
+		
+	/**** Download-area ****/
+	
+	.apple input {
+		width: 45%;
+		margin-top: 40px;
+	}
+	
+	
+}
+
+
+
+
+
+@media all and (max-width: 600px) {
+	
+	/**** welcome-text ****/
+	
+		.welcome-text h2 {
+			line-height: 1.3em;
+		}
+		
+		
+		/**** main-menu ****/
+		
+		.main-menu ul li {
+			display: block;
+			margin-top: 25px;
+		}
+		
+		.main-menu ul .logo img {
+			margin: 30px 0;
+			width: 100px;
+		}
+		
+		.welcome-text {
+			margin-top: 90px;
+		}
+		
+	/**** 3. Get Started ****/
+	
+	.get-started .hand-mobile {
+		background-size: 100% auto;
+	}
+	
+	.content {
+		width: 100%;
+		padding-left: 30px;
+	}
+
+
+	/**** Design Area ****/
+	.design-text {
+		background-size: 30%;
+	}
+
+	.design-content {
+		width: 65%;
+	}
+
+
+
+	/**** community-area ****/
+	
+	.about-us .column {
+		width: 100%;
+		margin: auoto;
+	}
+
+
+	/**** download-area ****/
+	
+	.download-content p {
+		width: 85%;
+	}
+
+
+}
+
+
+
+
+@media all and (max-width: 500px) {
+	
+	.subscribe-area form input[type="email"] {
+		padding: 10px 0px;
+		font-size: 12px;
+		margin-left: 30px;
+		text-align: center;
+	}
+	
+	.subscribe-area form button[type="submit"]  {
+		padding: 12px 12px;
+		font-size: 10px;
+	}
+		
+	
+	
+	.apple input {
+		padding: 13px 0px;
+		font-size: 12px;
+		margin-top: 20px;
+	}
+
+	.apple .android {
+		padding: 12px 0px;
+		font-size: 12px;
+	}
+
+	button[type="submit"] {
+		padding: 10px 8px;
+		font-size: 15px;
+	}
+
+
+
+
+}

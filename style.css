@@ -1,0 +1,624 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 3 version
+*/
+
+/*-----------------------------------------------------------------------------------
+
+	Template Name: phototime
+	Template URI: http://www.protap-ghosh.com
+	Description: photo related template
+	Author: Protap Ghosh
+	Author URI: http://www.protap-ghosh.com
+	License: GNU General Public License version 3.0
+	License URI: http://www.gnu.org/licenses/gpl-3.0.html
+	Version: 1.0
+
+-----------------------------------------------------------------------------------
+
+	1. Typography
+	2. Header Area
+		2.1 Menu menu
+		2.2 Welcome Text 
+		2.3 Social Media 
+	3. Get Started
+	4. Design Area
+	5. Community Area
+	6. Subscribe Area
+	7. Download Area
+	8. Footer Area
+
+-----------------------------------------------------------------------------------*/
+
+
+/***************************************************************
+					1. Typography
+***************************************************************/
+
+
+@font-face {
+	font-family: "Gotham-Rounded";
+	src: url('font/Gotham-Rounded-Book.woff') format('woff');
+	font-family: "Myriad-Pro-Regular";
+	src: url('fonts/Myriad-Pro-Regular.woff') format('woff');
+	font-family: "fonts";
+	src: url('fonts/fonts.woff') format('woff');
+}
+
+body,
+p {
+	font-family: "fonts";
+	src: url('fonts/fonts.woff') format('woff');
+	font-size: 15px;
+	line-height: 1.3em;
+	margin: 0;
+}
+
+
+h5 {
+	font-size: 17px;
+	letter-spacing: 2px;
+	font-weight: normal;
+	margin-top: 0;
+}
+
+h4 {
+	color:#303952;
+	font-size: 16px;
+	font-weight: normal;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+}
+
+
+
+
+/**************** 2. Header Area *************/
+
+.container {
+	width: 90%;
+	margin: 0 auto;
+	max-width: 1100px;
+}
+
+
+.header-area {
+	/* background-image: url('images/background-image.jpg');
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	background-size: 100% 100%; */
+	
+
+	background: url('images/background-image.jpg') no-repeat 0 0/ 100% 100%;
+	color: #FFFFFF;
+	text-align: center;
+	overflow: hidden;
+	padding-top: 39px;
+}
+
+.welcome-text h2 {
+	text-transform: uppercase;
+	font-size: 35px;
+	font-family: fonts.woff;
+	font-weight: normal;
+	letter-spacing: 6px;
+	margin-bottom: 0;
+	padding-bottom: 19px;
+}
+
+
+
+
+/**************** 2.1 Menu menu *************/
+
+.main-menu ul {
+	text-align: center;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.main-menu ul li {
+	display: inline;
+	padding: 0px 20px;
+}
+	
+.main-menu a {
+	color: #FFFFFF;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: Gotham-Rounded-Bold.woff;
+	font-weight: normal;
+	font-size: 15px;
+	letter-spacing: 2px;
+}
+
+.main-menu ul .logo img {
+	margin: 0 20px;
+	width: 52px;
+	height: auto;
+}
+
+.main-menu ul li a:hover {
+	border-bottom: 2px solid #16a085;
+	padding-bottom: 5px;
+	-webkit-transition: .2s;
+	-o-transition: .2s;
+	transition: .2s;
+}
+
+.main-menu ul .logo a:hover {
+	border-bottom: none;
+	padding-bottom: none;
+}
+
+
+
+/**************** 2.2 Welcome Text  *************/
+
+.welcome-text {
+	margin-top: 250px;
+	overflow: hidden;
+}
+
+.button {
+	text-decoration: none;
+	color: #FFFFFF;
+	border: 1px solid #16a085;
+	padding: 14px 28px;
+	background-color: #16a085;
+	border-radius: 4px;
+	font-weight: normal;
+	letter-spacing: 2px;
+	display: inline-block;
+	-webkit-transition: 1s;
+	-o-transition: 1s;
+	transition: 1s;
+	font-size: 12px;
+}
+	
+.button:hover {
+	background-color: #FFFFFF;
+	color: #16a085;
+}
+
+
+
+
+
+
+/**************** 2.3 Social Media   *************/
+
+.socal-media {
+	margin-top: 230px;
+	overflow: hidden;
+	margin-bottom: 28px;
+}
+	
+.socal-media ul {
+	list-style: none;
+	text-align: center;
+	margin-right: 45px;
+	margin: 0;
+	padding: 0;
+}
+
+.socal-media ul li {
+	display: inline;
+	margin-left: 12px;
+}
+
+.socal-media ul li a {
+	color: #FFFFFF;
+	font-size: 24px;
+	font-family: fonts.woff;
+	-webkit-transition: 1s;
+	-o-transition: 1s;
+	transition: 1s;
+}
+
+.socal-media ul li:hover a {
+	color: #16a085;
+}
+
+
+
+
+
+
+/**************** 3. Get Started  *************/
+
+.get-started {
+	background-color: #F5F6F6;
+	overflow: hidden;
+}
+
+.get-started .hand-mobile {
+	background-image: url('images/mobile-hand.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top right;
+	background-size: 60% auto;
+	margin-top: 75px;
+	padding-bottom: 40px;
+}
+
+.content h3 {
+	color: #16a085;
+	font-size: 16px;
+	letter-spacing: 2px;
+	font-weight: normal;
+	font-family: fonts;
+	text-transform: uppercase;
+	line-height: 1.4em;
+	width: 70%
+}
+
+
+.content p {
+	font-size: 11px;
+	letter-spacing: 2px;
+	font-family: Myriad-Pro-Regular.woff;
+	color: #8395a7;
+	font-weight: normal;
+	width: 80%;
+	line-height: 1.9em;
+	margin: 45px 0;
+}
+
+.content .font-color {
+	color: #303952;
+}
+
+.content {
+	width: 50%;
+}
+
+.button {
+	margin-bottom: 60px;
+}
+
+
+/**************** 4. Design Area  *************/
+
+.design {
+	margin-top: 150px;
+}
+
+.design .font-color {
+	color: #303952;
+}
+
+
+.design-text {
+	background-image: url('images/mobile.png');
+	background-repeat: no-repeat;
+	background-position: top left;
+	overflow: hidden;
+	background-size: 30%;
+}
+
+.design-content {
+	width: 40%;
+	float: right;
+	overflow: hidden;
+}
+
+.design-content h3 {
+	color: #16a085;
+	font-size: 16px;
+	letter-spacing: 2px;
+	font-weight: normal;
+	font-family: fonts;
+	text-transform: uppercase;
+	line-height: 1.4em;
+}
+
+.design-text p {
+	font-size: 11px;
+	letter-spacing: 2px;
+	font-family: Myriad-Pro-Regular.woff;
+	color: #8395a7;
+	font-weight: normal;
+	line-height: 1.9em;
+	margin: 45px 0;
+}
+
+
+.salide {
+	margin-bottom: 50px;
+	color: #4b6584;
+	font-size: 12px;
+	letter-spacing: 3px;
+}
+
+.arrow i {
+	color: #000000;
+	font-size: 30px;
+	margin-right: 15px;
+}
+	
+.arrow i:hover {
+	color: #16a085;
+}
+
+
+
+
+/**************** 5. Community Area  *************/
+
+.community {
+	background-color: #F5F6F6;
+	overflow: hidden;
+}
+
+.about-us {
+	overflow: hidden;
+}
+
+.about-us .column {
+	width: 31.33%;
+	margin-right: 2%;
+	float: left;
+	overflow: hidden;
+	text-align: center;
+	margin-bottom: 90px;
+}
+
+.column:nth-child(1) {
+	margin-top: 40px;
+}
+
+.column p {
+	font-size: 9px;
+	letter-spacing: 2px;
+	font-family: Myriad-Pro-Regular.woff;
+	color: #8395a7;
+	font-weight: normal;
+}
+
+
+.community-arrow {
+	overflow: hidden;
+	margin-right: 10px;
+	margin-top: 90px;
+}
+
+.community-arrow i {
+	color: #000000;
+	float: right;
+	font-size: 30px;
+	margin-right: 15px;
+	overflow: hidden;
+}
+
+.community-arrow i:hover {
+	color: #16a085;
+}
+
+
+.column img {
+	width: 100%;
+	height: auto;
+}
+
+.column .photo {
+	width: auto;
+	height: auto;
+}
+
+
+
+
+/**************** 6. Subscribe Area  *************/
+
+
+.subscribe-area {
+	background: url('images/phototime.jpg') no-repeat 0 0 / 100% 100%;
+	overflow: hidden;
+}
+
+.subscribe-area form {
+	width: 500px;
+	margin:auto;
+	
+}
+
+.subscribe-area .markup h3 {
+	color: #FFFFFF;
+	font-size: 24px;
+	letter-spacing: 3px;
+	font-weight: normal;
+	font-family: fonts;
+	text-transform: uppercase;
+	line-height: 1.4em;
+	text-align: center;
+}
+
+	
+.subscribe-area form input[type="email"] {
+	background-color: #FFFFFF;
+	color: #000000;
+	padding: 18px 13px;
+	border: none;
+	font-weight: normal;
+	font-size: 17px;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	border-radius: 3px 0 0 3px;
+	margin-right: 0;
+	margin-bottom: 30px;
+	margin-left: 75px;
+	border: 2px solid transparent;
+}
+
+
+.subscribe-area form button[type="submit"]  {
+	background-color: #16a085;
+	color: #FFFFFF;
+	padding: 18px 22px;
+	font-size: 18px;
+	margin-left: -5px;
+	border-radius: 0 3px 3px 0;
+	border: 0;
+	-webkit-transition: 1s;
+	-o-transition: 1s;
+	transition: 1s;
+	cursor: pointer;
+	border: 2px solid transparent;
+}
+
+.subscribe-area form button[type="submit"]:hover  {
+	color: #16a085;
+	border: 2px solid #16a085;
+	background-color: #FFFFFF;
+}
+
+.markup {
+	margin-top: 330px;
+	margin-bottom: 250px;
+}
+
+
+
+
+/**************** 7. Download Area *************/
+
+
+.download-area {
+	background-color: #F5F6F6;
+	overflow: hidden;
+}
+
+.download-content {
+	text-align: center;
+	overflow: hidden;
+	margin: 100px 0;
+}
+
+
+.download-content h2 {
+	color: #303952;
+	font-size: 20px;
+	letter-spacing: 2px;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+.download-content p {
+	width: 76%;
+	margin: auto;
+	font-size: 11px;
+	letter-spacing: 2px;
+	color: #747d8c;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+.apple {
+	margin-top: 50px;
+}
+
+.apple input {
+	padding: 15px 40px;
+	color: #FFFFFF;
+	background-color: #1BBC9B;
+	border: none;
+	font-weight: normal;
+	font-size: 17px;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	border-radius: 3px 0 0 3px;
+	-webkit-transition: 1s;
+	-o-transition: 1s;
+	transition: 1s;
+	cursor: pointer;
+	border: 1px solid transparent;
+}
+
+.apple .android {
+	padding: 15px 48px;
+}
+
+button[type="submit"] {
+	background-color: #17A188;
+	color: #FFFFFF;
+	padding: 14px 22px;
+	font-size: 18px;
+	margin-left: -5px;
+	border-radius: 0 3px 3px 0;
+	border: 0;
+	margin-right: 20px;
+	-webkit-transition: 1s;
+	-o-transition: 1s;
+	transition: 1s;
+	cursor: pointer;
+	border: 2px solid transparent;
+}
+
+button[type="submit"]:hover  {
+	color: #16a085;
+	border: 2px solid #16a085;
+	background-color: #FFFFFF;
+}
+
+input:hover  {
+	color: #16a085;
+	border: 1px solid #16a085;
+	background-color: #FFFFFF;
+}
+
+
+
+/**************** 8. Footer Area *************/
+
+.life-care {
+	text-transform: uppercase;
+	color: #576574;
+	font-size: 14px;
+	letter-spacing: 3px;
+	margin-top: 45px;
+}
+
+.life-care strong {
+	color: #17A188;
+}
+
+.footer-text p {
+	color: #576574;
+	font-size: 13px;
+	letter-spacing: 2px;
+	margin-top: 16px;
+}
+	
+.footer-text strong {
+	color: #17A188;
+	font-size: 20px;
+}
+
+.footer-content {
+	float: left;
+	overflow: hidden;
+}
+
+.image {
+	float: right;
+	margin: 45px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
